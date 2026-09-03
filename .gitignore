@@ -1,0 +1,16 @@
+# Arquivos de trabalho — nao entram no pacote de entrega maf.tar
+PLANEJAMENTO.md
+ROTEIRO_DE_TESTES.md
+diario.md
+MATERIAL_RELATORIO.md
+
+# Build
+*.o
+scheduler
+
+# Saidas geradas pelo programa (as esperadas de teste ficam versionadas)
+*.out
+!testes/esperado_*.out
+
+# Pacote de entrega
+maf.tar
