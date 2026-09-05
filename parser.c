@@ -61,8 +61,11 @@ int parse_input(const char *path, Workload *w)
     w->total_time = 0;
 
     do {
-        if (!fgets(line, sizeof line, f))
+        if (!fgets(line, sizeof line, f)) {
+            if (ferror(f))
+                return fail(f, EXIT_IO, "erro ao ler '%s': %s\n", path, strerror(errno));
             return fail(f, EXIT_FORMAT, "arquivo '%s' vazio: falta o tempo total de simulacao\n", path);
+        }
         no++;
         s = trim(line);
     } while (*s == '\0');
