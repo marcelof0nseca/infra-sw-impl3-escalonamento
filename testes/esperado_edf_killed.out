@@ -1,0 +1,20 @@
+EXECUTION BY EDF
+
+[CLK] for 1 units - F
+[MAP] for 3 units - H
+[CLK] for 1 units - F
+[MAP] for 3 units - H
+[CLK] for 1 units - F
+[MAP] for 3 units - K
+
+LOST DEADLINES
+[CLK] 0
+[MAP] 0
+
+COMPLETE EXECUTION
+[CLK] 3
+[MAP] 0
+
+KILLED
+[CLK] 0
+[MAP] 1

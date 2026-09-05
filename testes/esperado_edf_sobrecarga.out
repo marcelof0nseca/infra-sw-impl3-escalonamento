@@ -1,0 +1,20 @@
+EXECUTION BY EDF
+
+[ALT] for 6 units - F
+[TER] for 9 units - F
+[ALT] for 5 units - L
+[ALT] for 6 units - F
+[TER] for 4 units - L
+[ALT] for 2 units - K
+
+LOST DEADLINES
+[ALT] 1
+[TER] 1
+
+COMPLETE EXECUTION
+[ALT] 2
+[TER] 1
+
+KILLED
+[ALT] 1
+[TER] 1

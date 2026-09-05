@@ -1,0 +1,22 @@
+EXECUTION BY EDF
+
+[IMU] for 2 units - F
+[NAV] for 4 units - F
+[IMU] for 2 units - F
+idle for 2 units
+[IMU] for 2 units - F
+[NAV] for 4 units - F
+[IMU] for 2 units - F
+idle for 2 units
+
+LOST DEADLINES
+[NAV] 0
+[IMU] 0
+
+COMPLETE EXECUTION
+[NAV] 2
+[IMU] 4
+
+KILLED
+[NAV] 0
+[IMU] 0
